@@ -1,4 +1,5 @@
 import React from 'react'
+import CoverageIndicator from './CoverageIndicator'
 
 export default function Lcard() {
   return (
@@ -31,9 +32,9 @@ export default function Lcard() {
 </div>
 
   </div>
- 
+  <CoverageIndicator leftPercentage={46} />
 </div>  
-      
+
     </div>
   )
 }
