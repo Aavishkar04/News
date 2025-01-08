@@ -1,10 +1,10 @@
 import React from 'react'
 import CoverageIndicator from './CoverageIndicator'
 
-export default function Lcard() {
+export default function Lcard({ customClass }) {
   return (
     <div className='Lcard'>
-        <div className="relative flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96 ml-6 shadow-xl">
+        <div className={`relative flex flex-col my-0 bg-white border border-slate-200 w-96  ml-10 ${customClass || ''}`}>
   <div className="relative h-75 m-0 overflow-hidden text-white ">
     <img src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="card-image" />
   </div>
